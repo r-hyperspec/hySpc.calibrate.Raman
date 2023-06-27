@@ -1,0 +1,24 @@
+language: R
+sudo: false
+cache: packages
+warnings_are_errors: true
+
+os:
+  - linux
+  - osx
+
+r:
+  - oldrel
+  - release
+  - devel
+  
+jobs:
+  exclude:
+  - os: osx
+    r: devel
+
+before-script:
+- R -e "install.packages ('roxygen2'); roxygen2::roxygenize('.', roclets = c('rd', 'collate', 'namespace', 'vignette'))"
+
+after-success:
+- Rscript -e "covr::codecov()"

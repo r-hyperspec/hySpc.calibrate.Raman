@@ -1,0 +1,25 @@
+Package: 
+Type: Package
+Title: 
+Version: 0.0.0.9000
+Maintainer: Erick Oduniyi <eeoduniyi@gmail.com>
+Authors@R: c(
+    person("Claudia",   "Beleites",  role = c("aut"), email = "Claudia.Beleites@chemometrix.gmbh"),
+    person("Erick",     "Oduniyi", role = c("aut","cre"), email = "eeoduniyi@gmail.com")),
+    person("Vilmantas", "Gegzna", role = c("aut"))),
+    person("Bryan",     "Hanson", role = c("aut")))
+Description: 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: yes
+Depends:
+    hyperSpec
+Imports: 
+    hySpc.testthat
+Suggests:
+    knitr,
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
+Roxygen: list(markdown = TRUE)
+Collate: 

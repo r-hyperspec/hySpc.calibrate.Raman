@@ -1,0 +1,117 @@
+[
+  {
+    "name": "IO",
+    "color": "8B4513",
+    "description": "Input and output (read/write) related functions"
+  },
+  {
+    "name": "Proposal",
+    "color": "5319e7",
+    "description": ""
+  },
+  {
+    "name": "blocked :no_entry_sign:",
+    "color": "f9646e",
+    "description": "Cannot be started until another issue is resolved"
+  },
+  {
+    "name": "bug :bomb:",
+    "color": "ee0701",
+    "description": "something is not working as it should"
+  },
+  {
+    "name": "confirmed",
+    "color": "b60205",
+    "description": "Someone else besides the one who originally described the issue also has this issue."
+  },
+  {
+    "name": "datasets :date:",
+    "color": "edac15",
+    "description": "Related to datasets"
+  },
+  {
+    "name": "documentation :blue_book:",
+    "color": "000080",
+    "description": ""
+  },
+  {
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "name": "enhancement",
+    "color": "84b6eb",
+    "description": "New feature or request"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Good for newcomers"
+  },
+  {
+    "name": "guideline",
+    "color": "57dd4d",
+    "description": ""
+  },
+  {
+    "name": "help wanted",
+    "color": "128A0C",
+    "description": "Extra attention is needed"
+  },
+  {
+    "name": "invalid",
+    "color": "e6e6e6",
+    "description": "This doesn't seem right"
+  },
+  {
+    "name": "plots :chart_with_upwards_trend:",
+    "color": "a3e07d",
+    "description": "related to plotting, graphical display and interaction with graphical display"
+  },
+  {
+    "name": "poll :arrow_up: :arrow_down:",
+    "color": "baa5f7",
+    "description": "A question where everyone can vote"
+  },
+  {
+    "name": "priority high/urgent",
+    "color": "FF0000",
+    "description": ""
+  },
+  {
+    "name": "priority low",
+    "color": "C0ffA0",
+    "description": ""
+  },
+  {
+    "name": "priority medium",
+    "color": "FFC000",
+    "description": ""
+  },
+  {
+    "name": "question :grey_question:",
+    "color": "800080",
+    "description": "Further information is requested"
+  },
+  {
+    "name": "ready :heavy_check_mark:",
+    "color": "60ff60",
+    "description": ""
+  },
+  {
+    "name": "unit test",
+    "color": "ffff00",
+    "description": ""
+  },
+  {
+    "name": "vignette :green_book:",
+    "color": "ffe998",
+    "description": ""
+  },
+  {
+    "name": "wontfix",
+    "color": "ffffff",
+    "description": "This will not be worked on"
+  }
+]
