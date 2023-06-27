@@ -1,0 +1,12 @@
+# READ-ONLY FILE
+#
+# Original file resides in r-hyperspec/pkg-skelton.
+# DO NOT EDIT in any other repo as these changes will be overwritten.
+# Edit at r-hyperspec/pkg-skelton, then push there and
+# this file will be deployed to the other repos.
+#
+vignette-default-settingsR.R
+vignette-functions.R
+elsevier-with-titles.csl
+style.css
+vignette.css
