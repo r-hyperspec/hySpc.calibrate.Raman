@@ -1,0 +1,44 @@
+on: push
+
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: |
+          echo "Commit message: ${{ github.event.commits[0].message }}"
+          echo "Commit message: ${{ github.event.head_commit.message }}"
+
+      - name: Info 2
+        env:
+          MSG: ${{ github.event.commits.message }}
+        run: echo "$MSG"
+
+      - name: Info github
+        run: |
+          echo "Commit message: ${{ github.event.commits }}"
+
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - name: Dump job context
+        env:
+          JOB_CONTEXT: ${{ toJSON(job) }}
+        run: echo "$JOB_CONTEXT"
+      - name: Dump steps context
+        env:
+          STEPS_CONTEXT: ${{ toJSON(steps) }}
+        run: echo "$STEPS_CONTEXT"
+      - name: Dump runner context
+        env:
+          RUNNER_CONTEXT: ${{ toJSON(runner) }}
+        run: echo "$RUNNER_CONTEXT"
+      - name: Dump strategy context
+        env:
+          STRATEGY_CONTEXT: ${{ toJSON(strategy) }}
+        run: echo "$STRATEGY_CONTEXT"
+      - name: Dump matrix context
+        env:
+          MATRIX_CONTEXT: ${{ toJSON(matrix) }}
+        run: echo "$MATRIX_CONTEXT"
